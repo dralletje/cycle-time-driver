@@ -1,0 +1,39 @@
+{
+  "name": "cycle-time-driver",
+  "version": "1.0.0",
+  "description": "Create intervals and timeouts the cyclejs way!",
+  "main": "lib/time.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel -d lib/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dralletje/cycle-time-driver.git"
+  },
+  "keywords": [
+    "cyclejs",
+    "time",
+    "setInterval",
+    "setTimeout",
+    "driver"
+  ],
+  "peerDependencies": {
+    "rx": ">=2"
+  },
+  "author": "Michiel Dral <michiel@dral.eu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dralletje/cycle-time-driver/issues"
+  },
+  "homepage": "https://github.com/dralletje/cycle-time-driver#readme",
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "eslint": "^1.9.0",
+    "eslint-config-cycle": "^3.1.0",
+    "eslint-plugin-cycle": "^1.0.2",
+    "eslint-plugin-no-class": "^0.1.0",
+    "markdox": "0.1.10",
+    "rx": "^4.0.7"
+  }
+}
